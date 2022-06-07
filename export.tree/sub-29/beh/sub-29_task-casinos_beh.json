@@ -1,0 +1,83 @@
+{
+  "block": {
+    "Description": "Block number (integer)"
+  },
+  "trial": {
+    "Description": "Trial number (integer)"
+  },
+  "task": {
+    "Description": "Casino type (integer)",
+    "Levels": {
+      "x1": "Low-value",
+      "x2": "Mid-value",
+      "x3": "High-value"
+    }
+  },
+  "cue": {
+    "Description": "Cue number (integer)"
+  },
+  "prob": {
+    "Description": "Feedback validity (integer)",
+    "Levels": {
+      "x50": "Outcomes are 50% likely",
+      "x80": "Outcomes are 80% likely"
+    }
+  },
+  "red": {
+    "Description": "Red content of cue colour"
+  },
+  "green": {
+    "Description": "Green content of cue colour"
+  },
+  "blue": {
+    "Description": "Blue content of cue colour"
+  },
+  "shape": {
+    "Description": "Cue shape (integer)",
+    "x1": "circle",
+    "x2": "triangle",
+    "x3": "diamond",
+    "x4": "pentagon",
+    "x5": "hexagon",
+    "x6": "octagon"
+  },
+  "response": {
+    "Description": "Participant's response (integer)",
+    "Levels": {
+      "x1": "left",
+      "x2": "right"
+    }
+  },
+  "early": {
+    "Description": "Early response flag (boolean)",
+    "Levels": {
+      "x0": "not too early",
+      "x1": "too early"
+    }
+  },
+  "invalid": {
+    "Description": "Invalid/late response flag (boolean)",
+    "Levels": {
+      "x0": "not too late and valid response",
+      "x1": "too late or invalid response"
+    }
+  },
+  "rt": {
+    "Description": "Response time (milliseconds)"
+  },
+  "outcome": {
+    "Description": "Trial outcome (integer)",
+    "Levels": {
+      "xneg1": "Invalid",
+      "x0": "Loss",
+      "x1": "Win"
+    }
+  },
+  "optimal": {
+    "Description": "Optimal response flag (boolean). Which response is optimal was randomly assigned if prob. was 50%",
+    "Levels": {
+      "x0": "Non-optimal response",
+      "x1": "Optimal response"
+    }
+  }
+}
