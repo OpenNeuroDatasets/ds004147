@@ -49,7 +49,7 @@
     }
   },
   "early": {
-    "Description": "Eary response flag (boolean)",
+    "Description": "Early response flag (boolean)",
     "Levels": {
       "x0": "not too early",
       "x1": "too early"
